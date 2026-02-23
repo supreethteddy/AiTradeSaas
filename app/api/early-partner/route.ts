@@ -18,7 +18,7 @@ export async function POST(request: NextRequest) {
       from: 'AI Trade SaaS <onboarding@resend.dev>',
       to: 'supreeth.girish@gmail.com',
       subject: 'New Early Partner Lead',
-      reply_to: email,
+      replyTo: email,
       text: [
         'New early partner application:',
         '',
